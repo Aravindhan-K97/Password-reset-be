@@ -85,7 +85,7 @@ router.post('/login', async (req, res) => {
         from: 'smuthukumar2443@gmail.com',
         to: email,
         subject: 'Reset Password',
-        text: `Click the following link to reset your password: https://tangerine-tartufo-348612.netlify.app/reset-password/${token}`,
+        text: `Click the following link to reset your password: http://localhost:5173/reset-password/${token}`,
       };
   
       transporter.sendMail(mailOptions, (error, info) => {
