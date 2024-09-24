@@ -85,7 +85,7 @@ router.post('/login', async (req, res) => {
         from: 'aravindhan2825@gmail.com',
         to: email,
         subject: 'Reset Password',
-        text: `Click the following link to reset your password:https://password-reset-61.netlify.app/auth/reset-password/${token}`,
+        text: `Click the following link to reset your password:https://password-reset-61.netlify.app/reset-password/${token}`,
       };
   
       transporter.sendMail(mailOptions, (error, info) => {
