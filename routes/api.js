@@ -82,10 +82,10 @@ router.post('/login', async (req, res) => {
       });
   
       const mailOptions = {
-        from: 'smuthukumar2443@gmail.com',
+        from: 'aravindhan2825@gmail.com',
         to: email,
         subject: 'Reset Password',
-        text: `Click the following link to reset your password: https://tangerine-tartufo-348612.netlify.app/auth/reset-password/${token}`,
+        text: `Click the following link to reset your password:https://password-reset-61.netlify.app/auth/reset-password/${token}`,
       };
   
       transporter.sendMail(mailOptions, (error, info) => {

@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({ 
-  origin: 'https://tangerine-tartufo-348612.netlify.app',
+  origin: 'https://password-reset-61.netlify.app',
   credentials: true 
 }));
 
